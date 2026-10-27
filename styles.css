@@ -31,3 +31,9 @@
 .hero-person:after{background:linear-gradient(180deg,transparent 35%,rgba(11,25,41,.25) 60%,rgba(11,25,41,.94) 100%)}
 .social-card>img{object-position:50% 28%}
 @media(max-width:540px){.hero-person.silvia img{object-position:50% 25%}.speaker-identity[data-photo=silvia] img{object-position:50% 30%}}
+
+/* Floating WhatsApp Button */
+.whatsapp-float{position:fixed;bottom:26px;right:26px;z-index:999;display:flex;align-items:center;gap:10px;background:#25d366;color:#ffffff;padding:12px 20px;border-radius:50px;box-shadow:0 6px 20px rgba(0,0,0,0.35);font-size:13px;font-weight:750;letter-spacing:-.2px;transition:transform .2s,background .2s,box-shadow .2s;border:1px solid #ffffff30}
+.whatsapp-float:hover{transform:translateY(-3px) scale(1.02);background:#20ba5a;color:#ffffff;box-shadow:0 8px 25px rgba(37,211,102,0.4)}
+.whatsapp-float svg{width:22px;height:22px;flex-shrink:0}
+@media(max-width:600px){.whatsapp-float span{display:none}.whatsapp-float{padding:14px;border-radius:50%;bottom:20px;right:20px}}
