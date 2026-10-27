@@ -1,0 +1,37 @@
+# Sistema Operacional / Editores
+.DS_Store
+Thumbs.db
+*.tmp
+.vscode/
+.idea/
+
+# Vercel & Node
+.vercel/
+node_modules/
+
+# Chaves e Tokens (Segurança)
+*Token*
+*token*
+*.txt
+
+# Arquivos de trabalho / rascunhos locais (preservados no computador)
+*.zip
+*.tar.gz
+*.docx
+*.bak
+*.ogg
+*.png.bak
+
+# Scripts utilitários de desenvolvimento
+*.py
+__pycache__/
+audio-models/
+audio-tools/
+
+# Pastas de pesquisa e backups locais
+pesquisa-sites/
+comunicacao-que-vende/
+previa-comunicacao-que-vende.png
+wetransfer-expirado.png
+*Comunica*.png
+transcricao-*
